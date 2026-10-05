@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - Skate House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h2> Skate House</h2>
+
+    <nav>
+
+        <a href="index.html">Início</a>
+
+        <a href="login.html">Login</a>
+
+        <div class="menu">
+
+            <a href="#" id="botaoSobre">Sobre</a>
+
+            <div class="submenu" id="submenuSobre">
+                <a href="#">Empresa</a>
+                <a href="#">Clientes</a>
+            </div>
+
+        </div>
+
+        <div class="menu">
+
+            <a href="#" id="botaoContato">Contato</a>
+
+            <div class="submenu" id="submenuContato">
+                <a href="#">Telefones</a>
+                <a href="#">Email</a>
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h1>Cadastro</h1>
+
+    <p>Preencha seus dados para criar sua conta.</p>
+
+    <form id="formCadastro">
+
+        <label for="cpf">CPF:</label>
+        <input
+            type="text"
+            id="cpf"
+            placeholder="Digite seu CPF"
+            required
+        >
+
+        <label for="nome">Nome:</label>
+        <input
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome"
+            required
+        >
+
+        <label for="email">Gmail:</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Digite seu Gmail"
+            required
+        >
+
+        <label for="endereco">Endereço:</label>
+        <input
+            type="text"
+            id="endereco"
+            placeholder="Digite seu endereço"
+            required
+        >
+
+        <label for="senha">Senha:</label>
+        <input
+            type="password"
+            id="senha"
+            placeholder="Digite sua senha"
+            required
+        >
+
+        <button type="submit" class="botao">
+            Cadastrar
+        </button>
+
+    </form>
+
+    <p>Já possui uma conta?</p>
+
+    <a href="login.html" class="botao">
+        Ir para Login
+    </a>
+
+</main>
+
+
+<footer>
+
+
+    <p>
+        Todos os direitos reservados.
+        Gabriel Melo e Milena.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
